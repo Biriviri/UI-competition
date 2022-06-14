@@ -1,0 +1,484 @@
+/* <div class="desktop-3screen">
+<div class="overlap-group">
+  <div class="flex-row">
+    <img
+      class="oip-17-3"
+      src="https://anima-uploads.s3.amazonaws.com/projects/628b4a77eb6dc5beb96fec50/releases/628b4a8456f2f37e50cbadfa/img/oip--17--3@2x.png"
+    />
+    <div class="overlap-group3">
+      <div class="place-medium-white-28px">HOME</div>
+    </div>
+    <div class="overlap-group4">
+      <div class="about-usinter-medium-white-24px">ABOUT US</div>
+      <div class="rectangle-23"></div>
+    </div>
+    <div class="overlap-group2">
+      <div class="employeesinter-medium-white-24px">EMPLOYEES</div>
+      <img
+        class="rectangle-2"
+        src="https://anima-uploads.s3.amazonaws.com/projects/628b4a77eb6dc5beb96fec50/releases/628b4a8456f2f37e50cbadfa/img/rectangle-22@2x.svg"
+      />
+    </div>
+    <div class="overlap-group5">
+      <div class="loginsign-upinter-medium-white-24px">LOGIN/SIGN-UP</div>
+      <img
+        class="rectangle-2"
+        src="https://anima-uploads.s3.amazonaws.com/projects/628b4a77eb6dc5beb96fec50/releases/628b4a8456f2f37e50cbadfa/img/rectangle-27@2x.svg"
+      />
+    </div>
+  </div>
+  <div class="overlap-group1">
+    <h1 class="a-place-where-learni">
+      A place where learning begins.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Control your way
+    </h1>
+  </div>
+  <div class="flex-row-1">
+    <div class="_fill_wght_grad_opsz-container">
+      <img
+        class="call_fill0_wght400_grad0_opsz48-1"
+        src="https://anima-uploads.s3.amazonaws.com/projects/628b4a77eb6dc5beb96fec50/releases/628b4a8456f2f37e50cbadfa/img/call-fill0-wght400-grad0-opsz48-1@2x.png"
+      /><img
+        class="chat_fill0_wght400_grad0_opsz48"
+        src="https://anima-uploads.s3.amazonaws.com/projects/628b4a77eb6dc5beb96fec50/releases/628b4a8456f2f37e50cbadfa/img/chat-fill0-wght400-grad0-opsz48@2x.png"
+      /><img
+        class="mail_fill0_wght400_grad0_opsz48"
+        src="https://anima-uploads.s3.amazonaws.com/projects/628b4a77eb6dc5beb96fec50/releases/628b4a8456f2f37e50cbadfa/img/mail-fill0-wght400-grad0-opsz48@2x.png"
+      /><img
+        class="map_fill0_wght400_grad0_opsz48"
+        src="https://anima-uploads.s3.amazonaws.com/projects/628b4a77eb6dc5beb96fec50/releases/628b4a8456f2f37e50cbadfa/img/map-fill0-wght400-grad0-opsz48@2x.png"
+      />
+    </div>
+    <div class="flex-col">
+      <div class="phoneinter-normal-white-font-size: 40px;">071 554 0340</div>
+      <div class="phone-1inter-normal-white-20px">071 055 7897</div>
+
+      <div class="border-itcozainter-normal-white-20px">BorderIT.co,za</div>
+
+      <div class="innovation-hub-mlabinter-normal-white-20px">Innovation Hub&nbsp;&nbsp;Mlab</div>
+    </div>
+  </div>
+  <div class="x2022-right-of-addmission-reserved">2022| right of addmission reserved</div>
+</div>
+</div> */
+/* @import url("https://fonts.googleapis.com/css?family=Inter:400,500|Inria+Sans:400"); */
+
+
+#emp1{
+  position: absolute;
+width: 212px;
+height: 67px;
+left: 390px;
+top: 70px;
+text-align: center;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 29px;
+
+
+
+background: rgba(89, 112, 169, 0.5);
+border-radius: 115px;
+}
+
+#emp2{
+  position: absolute;
+width: 212px;
+height: 67px;
+left: 615px;
+top: 70px;
+text-align: center;
+background: rgba(89, 112, 169, 0.5);
+border-radius: 115px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 29px;
+}
+#emp3{
+  position: absolute;
+width: 212px;
+height: 67px;
+left: 850px;
+top: 70px;
+text-align: center;
+background: rgba(89, 112, 169, 0.5);
+border-radius: 115px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 29px;
+}
+#emp4{
+  position: absolute;
+width: 212px;
+height: 67px;
+left: 1100px;
+top: 70px;
+text-align: center;
+background: rgba(89, 112, 169, 0.5);
+border-radius: 115px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 29px;
+}
+.hidden,
+.hidden * {
+pointer-events: none;
+visibility: hidden;
+}
+
+.desktop-3 {
+align-items: flex-start;
+background-color: var(--white);
+display: flex;
+height: 1024px;
+width: 1440px;
+}
+
+.overlap-group {
+align-items: flex-start;
+background-image: url(https://anima-uploads.s3.amazonaws.com/projects/628b4a77eb6dc5beb96fec50/releases/628b4a8456f2f37e50cbadfa/img/homepage-1@1x.png);
+background-size: 100% 100%;
+display: flex;
+flex-direction: column;
+min-height: 1024px;
+padding: 30px 33px;
+width: 1440px;
+}
+
+.overlap-group1 {
+align-items: flex-end;
+background-image: url(https://anima-uploads.s3.amazonaws.com/projects/628b4a77eb6dc5beb96fec50/releases/628b4a8456f2f37e50cbadfa/img/rectangle-26@1x.svg);
+background-size: 100% 100%;
+display: flex;
+height: 168px;
+justify-content: flex-end;
+margin-left: 3px;
+margin-top: 82px;
+min-width: 658px;
+padding: 19px 35px;
+}
+
+.a-place-where-learni {
+color: #fff8f8;
+font-family: var(--font-family-im_fell_great_primer-regular);
+font-size: 55px;
+font-weight: 400;
+letter-spacing: 0;
+min-height: 118px;
+min-width: 578px;
+}
+
+.x2022-right-of-addmission-reserved {
+align-self: center;
+color:
+#fff8f8;
+font-family: var(--font-family-inria_sans);
+font-size: 30px;
+font-weight: 400;
+letter-spacing: 0;
+margin-right: 77px;
+margin-top: 14px;
+min-height: 30px;
+min-width: 373px;
+}
+
+.flex-row {
+align-items: center;
+align-self: center;
+display: flex;
+margin-right: 56px;
+min-width: 1204px;
+
+}
+
+.overlap-group2 {
+  height: 67px;
+  margin-left: 800px;
+  margin-top: 0px;
+  position: absolute;
+  width: 212px;
+
+
+
+  }
+
+
+.overlap-group3 {
+align-items: flex-start;
+background-image: url(https://anima-uploads.s3.amazonaws.com/projects/628b4a77eb6dc5beb96fec50/releases/628b4a8456f2f37e50cbadfa/img/rectangle-22@2x.svg);
+background-size: 100% 100%;
+display: flex;
+margin-left: 40px;
+margin-top: 25px;
+min-width: 85px;
+position: relative;
+padding:  61px;
+height: 20px;
+
+
+}
+.HOME{
+  width: 90px;
+  height: 12px;
+  left: 405px;
+  top: 63px;
+
+
+font-family: 'Inter';
+font-style: none;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: rgba(255, 255, 255, 0.5);
+
+}
+.overlap-group4 {
+  border-radius: 50px;
+  height: 67px;
+  margin-left: 80px;
+  margin-top: 30px;
+  position: relative;
+  width: 212px;
+  }
+  .overlap-group5 {
+    height: 67px;
+    margin-left: 1092px;
+    margin-top: 0px;
+    position: absolute;
+    width: 212px;
+
+    }
+
+.place {
+color:
+#ffffff80;
+font-family: var(--font-family-inter);
+font-size: 20px;
+font-weight: 500;
+letter-spacing: 0;
+min-height: 12px;
+width: 90px;
+}
+
+
+
+.rectangle-2 {
+height: 67px;
+left: 37px;
+position: absolute;
+top: 17px;
+width: 212px;
+}
+
+.loginsign-up {
+left: 50px;
+letter-spacing: 0;
+position: absolute;
+width: 100px;
+height: 29px;
+top: 31px;
+
+font-family: 'Inter';
+font-style: none;
+font-weight: 200;
+font-size: 22px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+
+
+.about-us {
+left: 40px;
+letter-spacing: 0;
+position: absolute;
+width: 100px;
+height: 29px;
+top: 21px;
+
+font-family: 'Inter';
+font-style: none;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.rectangle-23 {
+background-color:
+#596fa880;
+border-radius: 50px;
+height: 67px;
+left: 0px;
+position: relative;
+top: 0px;
+width: 212px;
+}
+
+
+.oip-17-3 {
+height: 130px;
+object-fit: cover;
+width: 222px;
+}
+
+
+.employees {
+left: 63px;
+letter-spacing: 0;
+position: absolute;
+width: 100px;
+height: 29px;
+top: 38px;
+
+font-family: 'Inter';
+font-style: none;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.flex-row-1 {
+align-items: flex-start;
+display: flex;
+height: 215px;
+margin-top: 269px;
+min-width: 283px;
+}
+
+.flex-col {
+align-items: flex-start;
+display: flex;
+flex-direction: column;
+margin-left: 26px;
+min-height: 202px;
+width: 200px;
+}
+
+.phone {
+position: absolute;
+width: 132px;
+height: 24px;
+left: 120px;
+top: 770px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+.innovation-hub-mlab {
+  position: absolute;
+  width: 200px;
+  height: 24px;
+  left: 116px;
+  top: 940px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+
+
+}
+
+.border-itcoza {
+letter-spacing: 0;
+margin-left: 0px;
+min-height: 24px;
+position: absolute;
+width: 0px;
+top: 880px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+
+}
+
+.phone-1 {
+  position: absolute;
+  width: 128px;
+  height: 24px;
+  left: 120px;
+  top: 820px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+
+._fill_wght_grad_opsz-container {
+align-items: center;
+align-self: flex-end;
+display: flex;
+flex-direction: column;
+min-height: 214px;
+width: 57px;
+}
+
+.mail_fill0_wght400_grad0_opsz48 {
+height: 48px;
+margin-left: 9px;
+margin-top: 3px;
+object-fit: cover;
+width: 48px;
+}
+
+.chat_fill0_wght400_grad0_opsz48 {
+height: 48px;
+margin-left: 9px;
+margin-top: 4px;
+object-fit: cover;
+width: 48px;
+}
+
+.map_fill0_wght400_grad0_opsz48 {
+height: 48px;
+margin-left: 9px;
+margin-top: 15px;
+object-fit: cover;
+width: 48px;
+}
+
+.call_fill0_wght400_grad0_opsz48-1 {
+height: 48px;
+margin-right: 9px;
+object-fit: cover;
+width: 48px;
+}
